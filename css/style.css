@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    width: 1100px;
+    margin: auto;
+}
+
+header {
+    background-image: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    background-color: #000000a6;
+    background-blend-mode: multiply;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {}
+
+.logo h3 {
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 20px 0;
+    line-height: 1;
+}
+
+.logo h3 span {
+    font-weight: 100;
+    font-size: 18px;
+}
+
+nav {}
+
+nav ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 0px 0 40px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+/* banner section */
+.banner {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.banner h4 {
+    font-size: 25px;
+    font-weight: 400;
+    font-style: italic;
+    margin-bottom: 0;
+}
+
+.banner span {
+    height: 5px;
+    width: 150px;
+    display: inline-block;
+    background-color: red;
+    border-radius: 7px;
+}
+
+.banner h1 {
+    font-size: 70px;
+}
+
+.banner button {
+    padding: 13px 30px;
+    background: #ff0000bd;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    border: 0;
+    border-radius: 50px;
+}
+
+/* upcomming event */
+.event-main {}
+
+.event-main h3 {
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.event-main span {
+    height: 5px;
+    width: 200px;
+    display: block;
+    background-color: red;
+    border-radius: 7px;
+    margin: auto;
+}
+
+.event {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.event-item {
+    /* width: 500px; */
+    padding: 0 20px;
+    text-align: center;
+}
+
+.event-item img {
+    height: 450px;
+    width: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 10px 10px 2px gray;
+}
+
+.event-item h5 {
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.event-item p {}
+
+.event-item a {
+    text-decoration: none;
+    color: red;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+/* explroe */
+.explore-world {
+    background-image: url(../images/father.jpg);
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    background-attachment: fixed;
+    background-color: rgb(0 0 255 / 73%);
+    background-size: cover;
+    padding: 100px 0;
+    display: flex;
+    color: white;
+    margin-top: 50px;
+}
+
+.explore-item {
+    width: 50%;
+    padding-right: 50px;
+}
+
+.explore-item h3 {
+    font-size: 60px;
+    margin-bottom: 0;
+}
+
+.explore-item span {
+    height: 5px;
+    width: 150px;
+    display: block;
+    background-color: red;
+    border-radius: 7px;
+}
+
+.explore-item p {
+    margin: 30px 0;
+}
+
+.explore-item a {
+    color: white;
+    text-decoration: none;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+
+/* tour */
+.tour-main {
+    margin: 80px 0;
+    display: flex;
+}
+
+.tour-item {
+    padding: 14px;
+}
+
+.tour-item h4 {
+    font-size: 40px;
+    margin: 0 0 10px 0;
+}
+
+.tour-item span {
+    height: 5px;
+    width: 150px;
+    display: block;
+    background-color: red;
+    border-radius: 7px;
+}
+
+.tour-item p {
+    margin: 40px 0;
+}
+
+.tour-item button {
+    padding: 12px 30px;
+    border: 0;
+    background-color: red;
+    border-radius: 50px;
+    color: white;
+    font-size: 20px;
+}
+
+.tour-item img {}
+
+.img1 {
+    height: 350px;
+    object-fit: cover;
+    margin: 0 0 20px 0;
+}
+
+.img2 {
+    height: 450px;
+    object-fit: cover;
+    margin: 0 0 20px 0;
+}
+
+/* footer */
+footer {
+    text-align: center;
+    background-color: red;
+    color: white;
+    padding: 50px;
+}
+
+.footer-main {}
+
+.footer-main h5 {
+    margin: 10px 0;
+}
+
+.footer-main a {
+    color: white;
+}
+
+.fab {
+    border-radius: 50px;
+    padding: 10px;
+    font-size: 25px;
+}
